@@ -1,0 +1,51 @@
+@media only screen and (max-width: 901px) {
+  .navlink--style {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+
+
+  #basic-nav-dropdown{
+      color: white;
+      font-weight: bold;
+      font-size: 1.3rem;
+      /* background-image: linear-gradient(to right, #390C41, #40123F, #45173D, #532238, #582737, #602E34, #673332, #703B2F, #77412D, #814A2A, #8C5326); */
+  }
+}
+@media only screen and (min-width: 901px) {
+.navlink--style {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+#basic-nav-dropdown{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    /* background-image: linear-gradient(to right, #390C41, #40123F, #45173D, #532238, #582737, #602E34, #673332, #703B2F, #77412D, #814A2A, #8C5326); */
+}
+}
+
+.brand--image {
+  margin: 0px;
+}
+
+.navbar--gradient {
+  background-image: linear-gradient(to right, #390C41, #40123F, #45173D, #532238, #582737, #602E34, #673332, #703B2F, #77412D, #814A2A, #8C5326);
+  color: #fff;
+}
+
+
+.toggler-design{
+background: rgba(246, 247, 249, 0.8) !important;
+margin-right: 10px;
+float: right;
+}
+
+.temp {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 14fr ;
+}

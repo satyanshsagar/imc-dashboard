@@ -1,0 +1,52 @@
+@media only screen and (max-width: 901px) {
+  .card--holder--imp {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .customCard--imp {
+    /* background-image: linear-gradient(to right, #390C41, #40123F, #45173D, #532238, #582737, #602E34, #673332, #703B2F, #77412D, #814A2A, #8C5326); */
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    /* border:1px solid #aaa; */
+    box-shadow: 7px 7px 7px 7px #ddd;
+    cursor: pointer;
+  }
+  .carTextHolder--imp {
+    padding: 0px;
+  }
+  .logo--size {
+    width: 80px;
+    height: 60px;
+  }
+}
+
+@media only screen and (min-width: 901px) {
+  .card--holder--imp {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .customCard--imp {
+    /* background-image: linear-gradient(to right, #390C41, #40123F, #45173D, #532238, #582737, #602E34, #673332, #703B2F, #77412D, #814A2A, #8C5326); */
+    width: auto;
+    height: auto;
+    padding: 5%;
+    margin: 10px;
+    text-align: center;
+    /* border:1px solid #aaa; */
+    box-shadow: 7px 7px 7px 7px #ddd;
+    cursor: pointer;
+  }
+  .carTextHolder--imp {
+      padding: 0px;
+    }
+
+    .logo--size {
+      width: 150px;
+      height: 150px;
+    }
+  }

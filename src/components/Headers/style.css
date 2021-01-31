@@ -1,0 +1,85 @@
+@media only screen and (max-width: 901px) {
+  .header--style--time1 {
+    visibility: show;
+  }
+  .header--style--time2 {
+    visibility: hidden;
+    background-image: linear-gradient(to right, #390C41, #40123F, #45173D, #532238, #582737, #602E34, #673332, #703B2F, #77412D, #814A2A, #8C5326);
+    color: #eee;
+    font-size: 0rem;
+  }
+  .header--box {
+    position: relative;
+    left:0;
+   top:0;
+  }
+  .logo--header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 14fr ;
+  }
+  .header--style--sub {
+  font-size: 1.2rem;
+  padding: 2px;
+  }
+  .header--style--main {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .header--style--time1 {
+    visibility: hidden;
+  }
+  .header--style--time2 {
+    background-image: linear-gradient(to right, #390C41, #40123F, #45173D, #532238, #582737, #602E34, #673332, #703B2F, #77412D, #814A2A, #8C5326);
+    color: #eee;
+    font-size: 1.7rem;
+    visibility: show;
+    font-weight: bold;
+  }
+  .header--box {
+    position: absolute;
+    left:0;
+   top:0;
+  }
+  .logo--header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 14fr ;
+  }
+  .header--style--sub {
+  font-size: 1.4rem;
+  }
+  .header--style--main {
+    font-size: 2.6rem;
+    font-weight: bolder;
+    width: 100%;
+  }
+}
+
+.header--style {
+  background-image: linear-gradient(to right, #390C41, #40123F, #45173D, #532238, #582737, #602E34, #673332, #703B2F, #77412D, #814A2A, #8C5326);
+  color: #eee;
+  font-weight: bold;
+  width: 100%;
+  padding: 0px !important;
+  max-width: 100%;
+  position: relative;
+}
+
+
+.header--style--time1 {
+font-size: 1.6rem;
+}
+.logo-container-master {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 14fr ;
+}
+.logo-container {
+  padding: 5px;
+}
+
+.brand--name {
+  text-align: center;
+}

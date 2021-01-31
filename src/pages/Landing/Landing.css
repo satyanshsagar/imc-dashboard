@@ -1,0 +1,111 @@
+@media only screen and (max-width: 901px) {
+  .ministers--image {
+    height: auto;
+    width: 100%;
+  }
+  .carousel--image2 {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    opacity: 0.6;
+    position: sticky;
+  }
+  .expertise--header {
+    font-family: 'Ultra', sans-serif;
+    font-size: 2.0rem;
+    font-weight: bolder;
+    color: #1d1d1d;
+    text-shadow: 1px 3px #c9c9c9;
+  }
+  .carousel--container2 {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    margin: auto;
+  }
+  .custom--header {
+    font-weight: bolder;
+    font-size: 7px;
+  }
+  .card--holder {
+    display: grid;
+    grid-template-columns:1fr;
+  }
+  .carTextHolder {
+    display: inline;
+    vertical-align: middle;
+    position: relative;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: #eee;
+  }
+}
+
+/* start of mobile view*/
+@media only screen and (min-width: 901px) {
+  .card--holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .custom--header {
+    font-weight: bolder;
+    font-size: 12px;
+  }
+  .expertise--header {
+    font-family: 'Ultra', sans-serif;
+    font-size: 3.4rem;
+    font-weight: bolder;
+    color: #1d1d1d;
+    text-shadow: 1px 5px #c9c9c9;
+  }
+  .ministers--image {
+    height: auto;
+    width: 65%;
+  }
+  .carousel--image2 {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    opacity: 0.6;
+    position: sticky;
+  }
+
+  .carTextHolder {
+    font-family: 'Ultra', sans-serif;
+    display: inline;
+    vertical-align: middle;
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: #eee;
+  }
+} /* end of mobile view*/
+
+.landing--page {
+  padding: 0px !important;
+  margin: 0px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.image--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.image--holder {
+  text-align: center;
+}
+
+.customCard {
+  background-image: linear-gradient(to right, #390C41, #40123F, #45173D, #532238, #582737, #602E34, #673332, #703B2F, #77412D, #814A2A, #8C5326);
+  width: auto;
+  height: auto;
+  padding: 30px;
+  margin: 10px;
+  text-align: center;
+  /* border:1px solid #aaa; */
+  box-shadow: 7px 7px 7px 7px #ddd;
+  cursor: pointer;
+}
