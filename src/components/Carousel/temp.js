@@ -13,7 +13,7 @@ function ControlledCarousel() {
   return (
     <div>
         <Carousel className="carousel--container" activeIndex={index} onSelect={handleSelect}>
-        <Carousel.Item interval={900}>
+        <Carousel.Item interval={2000}>
           <img
             className="d-block  carousel--image"
             src="resources/vidhansoudha.jpg"
@@ -24,7 +24,7 @@ function ControlledCarousel() {
           </Carousel.Caption>
         </Carousel.Item>
 
-          <Carousel.Item interval={900}>
+          <Carousel.Item interval={2000}>
             <img
               className="d-block  carousel--image"
               src="resources/CABIN_01.jpeg"
@@ -35,7 +35,7 @@ function ControlledCarousel() {
             </Carousel.Caption>
           </Carousel.Item>
 
-          <Carousel.Item interval={900}>
+          <Carousel.Item interval={2000}>
             <img
               className="d-block  carousel--image"
               src="resources/CABIN_02.jpeg"
@@ -46,7 +46,7 @@ function ControlledCarousel() {
             </Carousel.Caption>
           </Carousel.Item>
 
-          <Carousel.Item interval={900}>
+          <Carousel.Item interval={2000}>
             <img
               className="d-block  carousel--image"
               src="resources/CABIN_03.jpeg"
@@ -57,7 +57,7 @@ function ControlledCarousel() {
             </Carousel.Caption>
           </Carousel.Item>
 
-          <Carousel.Item interval={900}>
+          <Carousel.Item interval={2000}>
             <img
               className="d-block  carousel--image"
               src="resources/CABIN_04.jpeg"

@@ -13,7 +13,7 @@ function ExpertiseCarousel() {
   return (
     <div>
         <Carousel className="carousel--container2" activeIndex={index} onSelect={handleSelect}>
-          <Carousel.Item interval={900}>
+          <Carousel.Item interval={2000}>
             <img
               className="d-block  carousel--image2"
               src="resources/nursing.png"
@@ -24,7 +24,7 @@ function ExpertiseCarousel() {
             </Carousel.Caption>
           </Carousel.Item>
 
-          <Carousel.Item interval={900}>
+          <Carousel.Item interval={2000}>
             <img
               className="d-block  carousel--image2"
               src="resources/petroleum.png"
@@ -35,7 +35,7 @@ function ExpertiseCarousel() {
             </Carousel.Caption>
           </Carousel.Item>
 
-          <Carousel.Item interval={900}>
+          <Carousel.Item interval={2000}>
             <img
               className="d-block  carousel--image2"
               src="resources/construction.png"

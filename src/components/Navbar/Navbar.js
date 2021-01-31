@@ -12,12 +12,12 @@ function Navbars() {
         <Nav className="mr-auto">
           <Nav.Link href="#home" ><div className="navlink--style">HOME </div></Nav.Link>
           <Nav.Link href="#About us"><div className="navlink--style">SERVICES</div></Nav.Link>
-          <NavDropdown  title="MIGRATION" id="basic-nav-dropdown" c>
-            <NavDropdown.Item className="navlink--style" href="#action/3.1">APPLY</NavDropdown.Item>
-            <NavDropdown.Item className="navlink--style" href="#action/3.2">VIEW FORM STATUS</NavDropdown.Item>
-            <NavDropdown.Item className="navlink--style" href="#action/3.3">REQUIREMENT DETAILS</NavDropdown.Item>
+          <NavDropdown  title="MIGRATION" id="basic-nav-dropdown">
+            <NavDropdown.Item className="navlink--style-sub" href="#action/3.1">APPLY</NavDropdown.Item>
+            <NavDropdown.Item className="navlink--style-sub" href="#action/3.2">VIEW FORM STATUS</NavDropdown.Item>
+            <NavDropdown.Item className="navlink--style-sub" href="#action/3.3">REQUIREMENT DETAILS</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item className="navlink--style" href="#action/3.4">COMPLAINT</NavDropdown.Item>
+            <NavDropdown.Item className="navlink--style-sub" href="#action/3.4">COMPLAINT</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="#About us"><div className="navlink--style">CONTACT US </div></Nav.Link>
           <Nav.Link href="#About us"><div className="navlink--style">ABOUT </div></Nav.Link>
